@@ -1,0 +1,11 @@
+version: '3'
+services:
+  web:
+    image: 432955251928.dkr.ecr.us-east-2.amazonaws.com/todo
+    ports:
+     - "8081:8081"
+    volumes:
+    - /app
+  redis:
+    image: "redis:alpine"
+    

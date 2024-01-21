@@ -1,0 +1,6 @@
+Flask
+Werkzeug
+redis 
+requests
+Flask-SQLAlchemy
+SQLAlchemy 
